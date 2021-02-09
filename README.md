@@ -15,6 +15,12 @@
 
 _{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
 
+## Tests
+
+Describe: isLeapYear()
+Test: "It returns false for years that are not leap years."
+Expect(isLeapYear(1997)).toEqual(false);
+
 ## Setup/Installation Requirements
 
 * _This is a great place_
