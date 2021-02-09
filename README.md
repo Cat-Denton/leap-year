@@ -24,6 +24,9 @@ Expect(isLeapYear(1997)).toEqual(false);
 Test: "It returns true for years that are divisible by 4"
 Expect(isLeapYear(1900)).toEqual(true);
 
+Test: "It returns false for years that are divisible by 100"
+Expect(isLeapYear(1900)).toEqual(false);
+
 ## Setup/Installation Requirements
 
 * _This is a great place_
