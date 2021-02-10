@@ -17,17 +17,17 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Tests
 
-Describe: isLeapYear()
-Test: "It returns false for years that are not leap years."
+Describe: isLeapYear() \n
+Test: "It returns false for years that are not leap years." \n
 Expect(isLeapYear(1997)).toEqual(false);
 
-Test: "It returns true for years that are divisible by 4"
+Test: "It returns true for years that are divisible by 4" \n
 Expect(isLeapYear(1900)).toEqual(true);
 
-Test: "It returns false for years that are divisible by 100"
+Test: "It returns false for years that are divisible by 100"\n
 Expect(isLeapYear(1900)).toEqual(false);
 
-Test: "It returns true for years that are divisible by 400"
+Test: "It returns true for years that are divisible by 400"\n
 Expect(isLeapYear(1600)).toEqual(true);
 
 ## Setup/Installation Requirements
